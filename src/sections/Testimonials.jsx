@@ -1,5 +1,7 @@
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useState } from "react";
+import Abu from "@/assets/Abu.png";
+import Jam from "@/assets/Jam.png";
 
 const testimonials = [
   {
@@ -8,14 +10,14 @@ const testimonials = [
     author: "Abdul-jalil Camid Marohom",
     role: "IT Department, Peaci",
     avatar:
-      "/Abu.png",
+       Abu ,
   },
   {
     quote:
       "Working with Najib on our web application was a fantastic experience. His expertise in frontend development significantly improved our user interface and overall user experience.",
       author:"Jamil S. Racman",
       role:"SENIOR WEB DEVELOPER, Freelance",
-      avatar:"/Jam.png",
+      avatar: Jam ,
   }
 ];
 

@@ -1,5 +1,7 @@
 import { Button } from "@/components/Button";
-import Hero from "../../public/Hero.jpg";
+import heroImg from "@/assets/Hero.jpg";
+import profileImg from "@/assets/Profile.jpg";
+
 import {
   ArrowRight,
   Download,
@@ -30,7 +32,7 @@ export const Hero = () => {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/Hero.jpg"
+          src={heroImg}
           alt="Hero"
           className="w-full h-full object-cover opacity-40"
         />
@@ -121,7 +123,7 @@ export const Hero = () => {
 
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/Profile.jpg"
+                   src={profileImg}
                   alt="Najib S. Racman"
                   className="w-full aspect-4/5 object-cover rounded-2xl"
                 />

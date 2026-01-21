@@ -1,5 +1,8 @@
 import { ArrowUpRight, Github } from "lucide-react";
-import {AnimatedBorderButton} from "@/components/AnimatedBorderButton"
+import {AnimatedBorderButton} from "@/components/AnimatedBorderButton";
+import projectImg from "@/assets/projects/project.png";
+
+
 
 
 const projects = [
@@ -7,7 +10,7 @@ const projects = [
     title: "KZ Crafting",
     description:
       "A small business website built for a freelance client, featuring product catalog and booking system",
-    image: "/projects/project.png",
+    image: projectImg,
     tags: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
     link: "#",
     github: "#",
@@ -16,7 +19,7 @@ const projects = [
     title: "School Cashier Finance Analysis System",
     description:
       "A comprehensive school finance system managing students, teachers, fees, payments, and transactions. Includes interactive dashboards, charts, and reports for real-time financial insights.",
-    image: "/projects/project.png",
+    image: projectImg,
     tags: ["React", "Tailwind CSS", "MySQL", "Express.js"],
     link: "#",
     github: "#",
@@ -25,7 +28,7 @@ const projects = [
     title: "HealthTrack Dashboard",
     description:
       "Health monitoring dashboard for clinics with patient data visualization and analytics",
-    image: "/projects/project.png",
+    image: projectImg,
     tags: ["Vue.js", "Express.js", "Chart.js", "MySQL"],
     link: "#",
     github: "#",
@@ -34,7 +37,7 @@ const projects = [
     title: "EcoMarket",
     description:
       "Sustainable e-commerce platform with carbon footprint calculator and eco-friendly product filtering",
-    image: "/projects/project.png",
+    image: projectImg,
     tags: ["React", "Redux", "Stripe", "Firebase"],
     link: "#",
     github: "#",
